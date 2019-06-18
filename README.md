@@ -23,3 +23,6 @@ Some additional notes:
 * You can use whatever code editor you want;
 * We expect you to spend a maximum of about 2 hours on this challenge. If you can't do everything in this time then please provide pseudocode showing how you would implement the missing features; 
 * Feel free to provide pseudocode for additional improvements!
+
+Some additional advices:
+* Create a readme file in order to explain what were your choices and to explain how to deploy the solution in a Production Environment.
