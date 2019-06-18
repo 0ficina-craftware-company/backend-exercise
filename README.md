@@ -17,6 +17,7 @@ Some additional requirements on the created service:
 * The solution has to build without errors with the command "dotnet build";
 * The solution should be executing without errors with the command "dotnet run";
 * The service needs to be production ready.
+* Create a readme file in order to explain what were your choices and to explain how to deploy the solution in a Production Environment.
 
 Some additional notes:
 * You can use any persistence layer and database, just provide some details on how to run the solution in this file;
@@ -24,5 +25,3 @@ Some additional notes:
 * We expect you to spend a maximum of about 2 hours on this challenge. If you can't do everything in this time then please provide pseudocode showing how you would implement the missing features; 
 * Feel free to provide pseudocode for additional improvements!
 
-Some additional advices:
-* Create a readme file in order to explain what were your choices and to explain how to deploy the solution in a Production Environment.
