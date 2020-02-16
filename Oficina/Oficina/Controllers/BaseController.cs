@@ -84,7 +84,7 @@ namespace Oficina.Base.Controllers
                 return NotFound();
             }
 
-            return Ok(list);
+            return Ok(new KeyValuePair<int, IEnumerable<TEntity>>(total, list));
         }
     }
 }
