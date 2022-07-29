@@ -18,6 +18,7 @@ Some additional requirements on the created service:
 * The solution should be executing without errors with the command "dotnet run";
 * The service needs to be production ready.
 * Create a readme file in order to explain what were your choices and to explain how to deploy the solution in a Production Environment.
+* Create a dockercompose.yml file with the necessary specification to deploy and execute the application in Docker.
 
 Some additional notes:
 * You can use any persistence layer and database, just provide some details on how to run the solution in this file;
