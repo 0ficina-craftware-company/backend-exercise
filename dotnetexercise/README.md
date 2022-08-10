@@ -8,7 +8,7 @@ To run this software you need to have installed:
 # How to run the software
 
 ## Run Locally
-To run the API locally you will need to have SQL Server installed and running and you should edit the myDotNetTestApi/appsettings.json file to add your server's details like user, password and server address.
+To run the API locally you will need to have SQL Server installed and running and you should edit the myDotNetTestApi/appsettings.json file to add your server's details like user, password and server address, don't need to create a database since the service will run migrations on start.
 
 Run the following commands on /myDotNetTestApi directory:
 * dotnet build
