@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rui/Documents/release/backend-exercise/dotnetexercise/myDotNetTestApi/myDotNetTestApi.csproj": {}
+  },
+  "projects": {
+    "/home/rui/Documents/release/backend-exercise/dotnetexercise/myDotNetTestApi/myDotNetTestApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rui/Documents/release/backend-exercise/dotnetexercise/myDotNetTestApi/myDotNetTestApi.csproj",
+        "projectName": "myDotNetTestApi",
+        "projectPath": "/home/rui/Documents/release/backend-exercise/dotnetexercise/myDotNetTestApi/myDotNetTestApi.csproj",
+        "packagesPath": "/home/rui/.nuget/packages/",
+        "outputPath": "/home/rui/Documents/release/backend-exercise/dotnetexercise/myDotNetTestApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rui/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.15.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
