@@ -36,10 +36,11 @@ if you want to test the API quickly just input in your browser the following htt
 - Add unit tests.
 - Add more validations for the request body data in the endpoints PUT/POST/DELETE.
 - Add a certificate and https endpoint.
+- Improve the settings for the connection with the database since i had an issue where i would get an error 203 when starting the container for the first time, somwhow if i did a restart it would work well.
 
 ## Resume
 
-Since i'm new to the .net world i didn't know well where to start so i've just picked .net 6 and Entity framework because there was good documentation online and because it was recent and it seemed like a good choice to start.
+Since i'm new to the .net world i didn't know well where to start so i've just picked .net 6 and Entity framework because there was good documentation online and because it was recent and it seemed like a good choice to start overall.
 
 If the structure of the files feels weird that's probably because i started the project on a windows computer(my desktop pc) with Visual Studio 2022 and since i went on holidays with my family i had to resort to use my laptop which runs Ubuntu and i could only use VS code.
 
